@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <audio id="song" src="music/MK Theme.mp3" preload="auto"></audio>
+    <img id="audioControl" src="images/audioOff.png">
+    <div id="gameDiv">
+        <div id="playerDiv" class="cardDiv">
+            <p class="gameScore" id="playerScore">0</p>
+            <img class="gamePfp" id="playerPfp" src="images/player.png">
+            <img class="choiceIcon" id="playerChoiceIcon" src="">
+        </div>
+        <div id="resultDiv">
+            <p id="resultText"></p>
+            <div id="choiceDiv">
+                <button class="choiceBtn" id="rock">Rock</button>
+                <button class="choiceBtn" id="paper">Paper</button>
+                <button class="choiceBtn" id="scissors">Scissors</button>
+            </div>
+        </div>
+        <div id="ComputerDiv" class="cardDiv">
+            <p class="gameScore" id="computerScore">0</p>
+            <img class="gamePfp" id="computerPfp" src="images/computer.png">
+            <img class="choiceIcon" id="computerChoiceIcon" src="">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
